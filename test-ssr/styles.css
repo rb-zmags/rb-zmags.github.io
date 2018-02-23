@@ -1,0 +1,790 @@
+/*
+    NOTE: Not using the one from npm because we don't want to have !important on all rules...
+*/
+
+/*!
+* CleanSlate
+*   github.com/premasagar/cleanslate
+*
+*/
+
+
+/*
+    An extreme CSS reset stylesheet, for normalising the styling of a container element and its children.
+
+    by Premasagar Rose
+        dharmafly.com
+
+    license
+        opensource.org/licenses/mit-license.php
+
+    **
+
+    v0.10.1
+
+*/
+
+
+/* == BLANKET RESET RULES == */
+
+
+/* HTML 4.01 */
+
+.Cleanslate_cleanslate_3OuaK,
+.Cleanslate_cleanslate_3OuaK h1,
+.Cleanslate_cleanslate_3OuaK h2,
+.Cleanslate_cleanslate_3OuaK h3,
+.Cleanslate_cleanslate_3OuaK h4,
+.Cleanslate_cleanslate_3OuaK h5,
+.Cleanslate_cleanslate_3OuaK h6,
+.Cleanslate_cleanslate_3OuaK p,
+.Cleanslate_cleanslate_3OuaK td,
+.Cleanslate_cleanslate_3OuaK dl,
+.Cleanslate_cleanslate_3OuaK tr,
+.Cleanslate_cleanslate_3OuaK dt,
+.Cleanslate_cleanslate_3OuaK ol,
+.Cleanslate_cleanslate_3OuaK form,
+.Cleanslate_cleanslate_3OuaK select,
+.Cleanslate_cleanslate_3OuaK option,
+.Cleanslate_cleanslate_3OuaK pre,
+.Cleanslate_cleanslate_3OuaK div,
+.Cleanslate_cleanslate_3OuaK table,
+.Cleanslate_cleanslate_3OuaK th,
+.Cleanslate_cleanslate_3OuaK tbody,
+.Cleanslate_cleanslate_3OuaK tfoot,
+.Cleanslate_cleanslate_3OuaK caption,
+.Cleanslate_cleanslate_3OuaK thead,
+.Cleanslate_cleanslate_3OuaK ul,
+.Cleanslate_cleanslate_3OuaK li,
+.Cleanslate_cleanslate_3OuaK address,
+.Cleanslate_cleanslate_3OuaK blockquote,
+.Cleanslate_cleanslate_3OuaK dd,
+.Cleanslate_cleanslate_3OuaK fieldset,
+.Cleanslate_cleanslate_3OuaK li,
+.Cleanslate_cleanslate_3OuaK iframe,
+.Cleanslate_cleanslate_3OuaK strong,
+.Cleanslate_cleanslate_3OuaK legend,
+.Cleanslate_cleanslate_3OuaK em,
+.Cleanslate_cleanslate_3OuaK summary,
+.Cleanslate_cleanslate_3OuaK cite,
+.Cleanslate_cleanslate_3OuaK span,
+.Cleanslate_cleanslate_3OuaK input,
+.Cleanslate_cleanslate_3OuaK sup,
+.Cleanslate_cleanslate_3OuaK label,
+.Cleanslate_cleanslate_3OuaK dfn,
+.Cleanslate_cleanslate_3OuaK object,
+.Cleanslate_cleanslate_3OuaK big,
+.Cleanslate_cleanslate_3OuaK q,
+.Cleanslate_cleanslate_3OuaK samp,
+.Cleanslate_cleanslate_3OuaK acronym,
+.Cleanslate_cleanslate_3OuaK small,
+.Cleanslate_cleanslate_3OuaK img,
+.Cleanslate_cleanslate_3OuaK strike,
+.Cleanslate_cleanslate_3OuaK code,
+.Cleanslate_cleanslate_3OuaK sub,
+.Cleanslate_cleanslate_3OuaK ins,
+.Cleanslate_cleanslate_3OuaK textarea,
+.Cleanslate_cleanslate_3OuaK button,
+.Cleanslate_cleanslate_3OuaK var,
+.Cleanslate_cleanslate_3OuaK a,
+.Cleanslate_cleanslate_3OuaK abbr,
+.Cleanslate_cleanslate_3OuaK applet,
+.Cleanslate_cleanslate_3OuaK del,
+.Cleanslate_cleanslate_3OuaK kbd,
+.Cleanslate_cleanslate_3OuaK tt,
+.Cleanslate_cleanslate_3OuaK b,
+.Cleanslate_cleanslate_3OuaK i,
+.Cleanslate_cleanslate_3OuaK hr,
+
+
+
+.Cleanslate_cleanslate_3OuaK article,
+.Cleanslate_cleanslate_3OuaK aside,
+.Cleanslate_cleanslate_3OuaK figure,
+.Cleanslate_cleanslate_3OuaK figcaption,
+.Cleanslate_cleanslate_3OuaK footer,
+.Cleanslate_cleanslate_3OuaK header,
+.Cleanslate_cleanslate_3OuaK menu,
+.Cleanslate_cleanslate_3OuaK nav,
+.Cleanslate_cleanslate_3OuaK section,
+.Cleanslate_cleanslate_3OuaK time,
+.Cleanslate_cleanslate_3OuaK mark,
+.Cleanslate_cleanslate_3OuaK audio,
+.Cleanslate_cleanslate_3OuaK video,
+.Cleanslate_cleanslate_3OuaK abbr,
+.Cleanslate_cleanslate_3OuaK address,
+.Cleanslate_cleanslate_3OuaK area,
+.Cleanslate_cleanslate_3OuaK blockquote,
+.Cleanslate_cleanslate_3OuaK canvas,
+.Cleanslate_cleanslate_3OuaK caption,
+.Cleanslate_cleanslate_3OuaK cite,
+.Cleanslate_cleanslate_3OuaK code,
+.Cleanslate_cleanslate_3OuaK colgroup,
+.Cleanslate_cleanslate_3OuaK col,
+.Cleanslate_cleanslate_3OuaK datalist,
+.Cleanslate_cleanslate_3OuaK fieldset,
+.Cleanslate_cleanslate_3OuaK main,
+.Cleanslate_cleanslate_3OuaK map,
+.Cleanslate_cleanslate_3OuaK meta,
+.Cleanslate_cleanslate_3OuaK optgroup,
+.Cleanslate_cleanslate_3OuaK output,
+.Cleanslate_cleanslate_3OuaK progress,
+.Cleanslate_cleanslate_3OuaK svg {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    /* This rule affects the use of pngfix JavaScript http://dillerdesign.com/experiment/DD_BelatedPNG for IE6, which is used to force the browser to recognise alpha-transparent PNGs files that replace the IE6 lack of PNG transparency. (The rule overrides the VML image that is used to replace the given CSS background-image). If you don't know what that means, then you probably haven't used the pngfix script, and this comment may be ignored :) */
+    background-position: 0 0;
+    background-repeat: repeat;
+    border-color: black;
+    border-color: currentColor;
+    /* `border-color` should match font color. Modern browsers (incl. IE9) allow the use of "currentColor" to match the current font 'color' value <http://www.w3.org/TR/css3-color/#currentcolor>. For older browsers, a default of 'black' is given before this rule. Guideline to support older browsers: if you haven't already declared a border-color for an element, be sure to do so, e.g. when you first declare the border-width. */
+    border-radius: 0;
+    border-style: none;
+    border-width: medium;
+    bottom: auto;
+    clear: none;
+    clip: auto;
+    color: inherit;
+    counter-increment: none;
+    counter-reset: none;
+    cursor: auto;
+    direction: inherit;
+    display: inline;
+    float: none;
+    font-family: inherit;
+    /* As with other inherit values, this needs to be set on the root container element */
+    font-size: inherit;
+    font-style: inherit;
+    font-variant: normal;
+    font-weight: inherit;
+    height: auto;
+    left: auto;
+    letter-spacing: normal;
+    line-height: inherit;
+    list-style-type: inherit;
+    /* Could set list-style-type to none */
+    list-style-position: outside;
+    list-style-image: none;
+    margin: 0;
+    max-height: none;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    opacity: 1;
+    outline: invert none medium;
+    overflow: visible;
+    padding: 0;
+    position: static;
+    quotes: "" "";
+    right: auto;
+    table-layout: auto;
+    text-align: inherit;
+    text-decoration: inherit;
+    text-indent: 0;
+    text-transform: none;
+    top: auto;
+    unicode-bidi: normal;
+    vertical-align: baseline;
+    visibility: inherit;
+    white-space: normal;
+    width: auto;
+    word-spacing: normal;
+    z-index: auto;
+    /* CSS3 */
+    /* Including all prefixes according to http://caniuse.com/ */
+    /* CSS Animations don't cascade, so don't require resetting */
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -webkit-border-image: none;
+    -moz-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-column-count: auto;
+    -moz-column-count: auto;
+    column-count: auto;
+    -webkit-column-gap: normal;
+    -moz-column-gap: normal;
+    column-gap: normal;
+    -webkit-column-rule: medium none black;
+    -moz-column-rule: medium none black;
+    column-rule: medium none black;
+    -webkit-column-span: 1;
+    -moz-column-span: 1;
+    /* doesn't exist yet but probably will */
+    column-span: 1;
+    -webkit-column-width: auto;
+    -moz-column-width: auto;
+    column-width: auto;
+    font-feature-settings: normal;
+    overflow-x: visible;
+    overflow-y: visible;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+    -webkit-perspective: none;
+    -moz-perspective: none;
+    -ms-perspective: none;
+    -o-perspective: none;
+    perspective: none;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    -ms-backface-visibility: visible;
+    -o-backface-visibility: visible;
+    backface-visibility: visible;
+    text-shadow: none;
+    -webkit-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+    transform-style: flat;
+    word-break: normal;
+}
+
+
+/* == BLOCK-LEVEL == */
+
+
+/* Actually, some of these should be inline-block and other values, but block works fine (TODO: rigorously verify this) */
+
+
+/* HTML 4.01 */
+
+.Cleanslate_cleanslate_3OuaK,
+.Cleanslate_cleanslate_3OuaK h3,
+.Cleanslate_cleanslate_3OuaK h5,
+.Cleanslate_cleanslate_3OuaK p,
+.Cleanslate_cleanslate_3OuaK h1,
+.Cleanslate_cleanslate_3OuaK dl,
+.Cleanslate_cleanslate_3OuaK dt,
+.Cleanslate_cleanslate_3OuaK h6,
+.Cleanslate_cleanslate_3OuaK ol,
+.Cleanslate_cleanslate_3OuaK form,
+.Cleanslate_cleanslate_3OuaK option,
+.Cleanslate_cleanslate_3OuaK pre,
+.Cleanslate_cleanslate_3OuaK div,
+.Cleanslate_cleanslate_3OuaK h2,
+.Cleanslate_cleanslate_3OuaK caption,
+.Cleanslate_cleanslate_3OuaK h4,
+.Cleanslate_cleanslate_3OuaK ul,
+.Cleanslate_cleanslate_3OuaK address,
+.Cleanslate_cleanslate_3OuaK blockquote,
+.Cleanslate_cleanslate_3OuaK dd,
+.Cleanslate_cleanslate_3OuaK fieldset,
+.Cleanslate_cleanslate_3OuaK hr,
+
+
+
+.Cleanslate_cleanslate_3OuaK article,
+.Cleanslate_cleanslate_3OuaK dialog,
+.Cleanslate_cleanslate_3OuaK figure,
+.Cleanslate_cleanslate_3OuaK footer,
+.Cleanslate_cleanslate_3OuaK header,
+.Cleanslate_cleanslate_3OuaK hgroup,
+.Cleanslate_cleanslate_3OuaK menu,
+.Cleanslate_cleanslate_3OuaK nav,
+.Cleanslate_cleanslate_3OuaK section,
+.Cleanslate_cleanslate_3OuaK audio,
+.Cleanslate_cleanslate_3OuaK video,
+.Cleanslate_cleanslate_3OuaK address,
+.Cleanslate_cleanslate_3OuaK blockquote,
+.Cleanslate_cleanslate_3OuaK colgroup,
+.Cleanslate_cleanslate_3OuaK main,
+.Cleanslate_cleanslate_3OuaK progress,
+.Cleanslate_cleanslate_3OuaK summary {
+    display: block;
+}
+
+.Cleanslate_cleanslate_3OuaK h1,
+.Cleanslate_cleanslate_3OuaK h2,
+.Cleanslate_cleanslate_3OuaK h3,
+.Cleanslate_cleanslate_3OuaK h4,
+.Cleanslate_cleanslate_3OuaK h5,
+.Cleanslate_cleanslate_3OuaK h6 {
+    font-weight: bold;
+}
+
+.Cleanslate_cleanslate_3OuaK h1 {
+    font-size: 2em;
+    padding: .67em 0;
+}
+
+.Cleanslate_cleanslate_3OuaK h2 {
+    font-size: 1.5em;
+    padding: .83em 0;
+}
+
+.Cleanslate_cleanslate_3OuaK h3 {
+    font-size: 1.17em;
+    padding: .83em 0;
+}
+
+.Cleanslate_cleanslate_3OuaK h4 {
+    font-size: 1em;
+}
+
+.Cleanslate_cleanslate_3OuaK h5 {
+    font-size: .83em;
+}
+
+.Cleanslate_cleanslate_3OuaK p {
+    margin: 1em 0;
+}
+
+.Cleanslate_cleanslate_3OuaK table {
+    display: table;
+}
+
+.Cleanslate_cleanslate_3OuaK thead {
+    display: table-header-group;
+}
+
+.Cleanslate_cleanslate_3OuaK tbody {
+    display: table-row-group;
+}
+
+.Cleanslate_cleanslate_3OuaK tfoot {
+    display: table-footer-group;
+}
+
+.Cleanslate_cleanslate_3OuaK tr {
+    display: table-row;
+}
+
+.Cleanslate_cleanslate_3OuaK th,
+.Cleanslate_cleanslate_3OuaK td {
+    display: table-cell;
+    padding: 2px;
+}
+
+
+/* == SPECIFIC ELEMENTS == */
+
+
+/* Some of these are browser defaults; some are just useful resets */
+
+.Cleanslate_cleanslate_3OuaK ol,
+.Cleanslate_cleanslate_3OuaK ul {
+    margin: 1em 0;
+}
+
+.Cleanslate_cleanslate_3OuaK ul li,
+.Cleanslate_cleanslate_3OuaK ul ul li,
+.Cleanslate_cleanslate_3OuaK ul ul ul li,
+.Cleanslate_cleanslate_3OuaK ol li,
+.Cleanslate_cleanslate_3OuaK ol ol li,
+.Cleanslate_cleanslate_3OuaK ol ol ol li,
+.Cleanslate_cleanslate_3OuaK ul ol ol li,
+.Cleanslate_cleanslate_3OuaK ul ul ol li,
+.Cleanslate_cleanslate_3OuaK ol ul ul li,
+.Cleanslate_cleanslate_3OuaK ol ol ul li {
+    list-style-position: inside;
+    margin-top: .08em;
+}
+
+.Cleanslate_cleanslate_3OuaK ol ol,
+.Cleanslate_cleanslate_3OuaK ol ol ol,
+.Cleanslate_cleanslate_3OuaK ul ul,
+.Cleanslate_cleanslate_3OuaK ul ul ul,
+.Cleanslate_cleanslate_3OuaK ol ul,
+.Cleanslate_cleanslate_3OuaK ol ul ul,
+.Cleanslate_cleanslate_3OuaK ol ol ul,
+.Cleanslate_cleanslate_3OuaK ul ol,
+.Cleanslate_cleanslate_3OuaK ul ol ol,
+.Cleanslate_cleanslate_3OuaK ul ul ol {
+    padding-left: 40px;
+    margin: 0;
+}
+
+
+/* helper for general navigation */
+
+.Cleanslate_cleanslate_3OuaK nav ul,
+.Cleanslate_cleanslate_3OuaK nav ol {
+    list-style-type: none;
+}
+
+.Cleanslate_cleanslate_3OuaK ul,
+.Cleanslate_cleanslate_3OuaK menu {
+    list-style-type: disc;
+}
+
+.Cleanslate_cleanslate_3OuaK ol {
+    list-style-type: decimal;
+}
+
+.Cleanslate_cleanslate_3OuaK ol ul,
+.Cleanslate_cleanslate_3OuaK ul ul,
+.Cleanslate_cleanslate_3OuaK menu ul,
+.Cleanslate_cleanslate_3OuaK ol menu,
+.Cleanslate_cleanslate_3OuaK ul menu,
+.Cleanslate_cleanslate_3OuaK menu menu {
+    list-style-type: circle;
+}
+
+.Cleanslate_cleanslate_3OuaK ol ol ul,
+.Cleanslate_cleanslate_3OuaK ol ul ul,
+.Cleanslate_cleanslate_3OuaK ol menu ul,
+.Cleanslate_cleanslate_3OuaK ol ol menu,
+.Cleanslate_cleanslate_3OuaK ol ul menu,
+.Cleanslate_cleanslate_3OuaK ol menu menu,
+.Cleanslate_cleanslate_3OuaK ul ol ul,
+.Cleanslate_cleanslate_3OuaK ul ul ul,
+.Cleanslate_cleanslate_3OuaK ul menu ul,
+.Cleanslate_cleanslate_3OuaK ul ol menu,
+.Cleanslate_cleanslate_3OuaK ul ul menu,
+.Cleanslate_cleanslate_3OuaK ul menu menu,
+.Cleanslate_cleanslate_3OuaK menu ol ul,
+.Cleanslate_cleanslate_3OuaK menu ul ul,
+.Cleanslate_cleanslate_3OuaK menu menu ul,
+.Cleanslate_cleanslate_3OuaK menu ol menu,
+.Cleanslate_cleanslate_3OuaK menu ul menu,
+.Cleanslate_cleanslate_3OuaK menu menu menu {
+    list-style-type: square;
+}
+
+.Cleanslate_cleanslate_3OuaK li {
+    display: list-item;
+    /* Fixes IE7 issue with positioning of nested bullets */
+    min-height: auto;
+    min-width: auto;
+    padding-left: 20px;
+    /* replace -webkit-padding-start: 40px; */
+}
+
+.Cleanslate_cleanslate_3OuaK strong {
+    font-weight: bold;
+}
+
+.Cleanslate_cleanslate_3OuaK em {
+    font-style: italic;
+}
+
+.Cleanslate_cleanslate_3OuaK kbd,
+.Cleanslate_cleanslate_3OuaK samp,
+.Cleanslate_cleanslate_3OuaK code,
+.Cleanslate_cleanslate_3OuaK pre {
+    font-family: monospace;
+}
+
+.Cleanslate_cleanslate_3OuaK a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.Cleanslate_cleanslate_3OuaK a:visited {
+    color: #529;
+}
+
+.Cleanslate_cleanslate_3OuaK a,
+.Cleanslate_cleanslate_3OuaK a *,
+.Cleanslate_cleanslate_3OuaK input[type=submit],
+.Cleanslate_cleanslate_3OuaK input[type=button],
+.Cleanslate_cleanslate_3OuaK input[type=radio],
+.Cleanslate_cleanslate_3OuaK input[type=checkbox],
+.Cleanslate_cleanslate_3OuaK select,
+.Cleanslate_cleanslate_3OuaK button {
+    cursor: pointer;
+}
+
+.Cleanslate_cleanslate_3OuaK button,
+.Cleanslate_cleanslate_3OuaK input[type=submit] {
+    text-align: center;
+    padding: 2px 6px 3px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: arial, helvetica, sans-serif;
+    font-size: small;
+    background: white;
+    -webkit-appearance: push-button;
+    color: buttontext;
+    border: 1px #a6a6a6 solid;
+    background: lightgrey;
+    /* Old browsers */
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(221, 221, 221, 1) 100%, rgba(209, 209, 209, 1) 100%, rgba(221, 221, 221, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(221, 221, 221, 1)), color-stop(100%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(221, 221, 221, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(221, 221, 221, 1) 100%, rgba(209, 209, 209, 1) 100%, rgba(221, 221, 221, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(221, 221, 221, 1) 100%, rgba(209, 209, 209, 1) 100%, rgba(221, 221, 221, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(221, 221, 221, 1) 100%, rgba(209, 209, 209, 1) 100%, rgba(221, 221, 221, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(221, 221, 221, 1) 100%, rgba(209, 209, 209, 1) 100%, rgba(221, 221, 221, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd', GradientType=0);
+    /* IE6-9 */
+    -webkit-box-shadow: 1px 1px 0px #eee;
+    -moz-box-shadow: 1px 1px 0px #eee;
+    -o-box-shadow: 1px 1px 0px #eee;
+    box-shadow: 1px 1px 0px #eee;
+    outline: initial;
+}
+
+.Cleanslate_cleanslate_3OuaK button:active,
+.Cleanslate_cleanslate_3OuaK input[type=submit]:active,
+.Cleanslate_cleanslate_3OuaK input[type=button]:active,
+.Cleanslate_cleanslate_3OuaK button:active {
+    background: rgb(59, 103, 158);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(59, 103, 158, 1)), color-stop(50%, rgba(43, 136, 217, 1)), color-stop(51%, rgba(32, 124, 202, 1)), color-stop(100%, rgba(125, 185, 232, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* W3C */
+    border-color: #5259b0;
+}
+
+.Cleanslate_cleanslate_3OuaK button {
+    padding: 1px 6px 2px 6px;
+    margin-right: 5px;
+}
+
+.Cleanslate_cleanslate_3OuaK input[type=hidden] {
+    display: none;
+}
+
+
+/* restore form defaults */
+
+.Cleanslate_cleanslate_3OuaK textarea {
+    -webkit-appearance: textarea;
+    background: white;
+    padding: 2px;
+    margin-left: 4px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 13px;
+    resize: both;
+}
+
+.Cleanslate_cleanslate_3OuaK select,
+.Cleanslate_cleanslate_3OuaK textarea,
+.Cleanslate_cleanslate_3OuaK input {
+    border: 1px solid #ccc;
+}
+
+.Cleanslate_cleanslate_3OuaK select {
+    font-size: 11px;
+    font-family: helvetica, arial, sans-serif;
+    display: inline-block;
+}
+
+.Cleanslate_cleanslate_3OuaK textarea:focus,
+.Cleanslate_cleanslate_3OuaK input:focus {
+    outline: auto 5px -webkit-focus-ring-color;
+    outline: initial;
+}
+
+.Cleanslate_cleanslate_3OuaK input[type=text] {
+    background: white;
+    padding: 1px;
+    font-family: initial;
+    font-size: small;
+}
+
+.Cleanslate_cleanslate_3OuaK input[type=checkbox],
+.Cleanslate_cleanslate_3OuaK input[type=radio] {
+    border: 1px #2b2b2b solid;
+    border-radius: 4px;
+}
+
+.Cleanslate_cleanslate_3OuaK input[type=checkbox],
+.Cleanslate_cleanslate_3OuaK input[type=radio] {
+    outline: initial;
+}
+
+.Cleanslate_cleanslate_3OuaK input[type=radio] {
+    margin: 2px 2px 3px 2px;
+}
+
+.Cleanslate_cleanslate_3OuaK abbr[title],
+.Cleanslate_cleanslate_3OuaK acronym[title],
+.Cleanslate_cleanslate_3OuaK dfn[title] {
+    cursor: help;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+}
+
+.Cleanslate_cleanslate_3OuaK ins {
+    background-color: #ff9;
+    color: black;
+}
+
+.Cleanslate_cleanslate_3OuaK del {
+    text-decoration: line-through;
+}
+
+.Cleanslate_cleanslate_3OuaK blockquote,
+.Cleanslate_cleanslate_3OuaK q {
+    quotes: none;
+    /* HTML5 */
+}
+
+.Cleanslate_cleanslate_3OuaK blockquote:before,
+.Cleanslate_cleanslate_3OuaK blockquote:after,
+.Cleanslate_cleanslate_3OuaK q:before,
+.Cleanslate_cleanslate_3OuaK q:after,
+.Cleanslate_cleanslate_3OuaK li:before,
+.Cleanslate_cleanslate_3OuaK li:after {
+    content: "";
+}
+
+.Cleanslate_cleanslate_3OuaK input,
+.Cleanslate_cleanslate_3OuaK select {
+    vertical-align: middle;
+}
+
+.Cleanslate_cleanslate_3OuaK table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.Cleanslate_cleanslate_3OuaK hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+.Cleanslate_cleanslate_3OuaK *[dir=rtl] {
+    direction: rtl;
+}
+
+.Cleanslate_cleanslate_3OuaK mark {
+    background-color: #ff9;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Cleanslate_cleanslate_3OuaK menu {
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
+
+/* additional helpers */
+
+.Cleanslate_cleanslate_3OuaK [hidden],
+.Cleanslate_cleanslate_3OuaK template {
+    display: none;
+}
+
+.Cleanslate_cleanslate_3OuaK abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+.Cleanslate_cleanslate_3OuaK sub,
+.Cleanslate_cleanslate_3OuaK sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.Cleanslate_cleanslate_3OuaK sup {
+    top: -0.5em;
+}
+
+.Cleanslate_cleanslate_3OuaK sub {
+    bottom: -0.25em;
+}
+
+.Cleanslate_cleanslate_3OuaK img {
+    border: 0;
+}
+
+.Cleanslate_cleanslate_3OuaK figure {
+    margin: 0;
+}
+
+.Cleanslate_cleanslate_3OuaK textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+
+/* == ROOT CONTAINER ELEMENT == */
+
+
+/* This contains default values for child elements to inherit  */
+
+.Cleanslate_cleanslate_3OuaK {
+    font-size: medium;
+    line-height: 1;
+    direction: ltr;
+    text-align: left;
+    /* for IE, Opera */
+    text-align: start;
+    /* recommended W3C Spec */
+    font-family: "Times New Roman", Times, serif;
+    /* Override this with whatever font-family is required */
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    list-style-type: disc;
+}
+
+.Cleanslate_cleanslate_3OuaK pre {
+    white-space: pre;
+}
+.ExperienceViewer_experienceViewer_2hSVo {
+    position: absolute;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.style_shareLink_3jMj6 {
+    display: inline-block;
+    padding: 4px 0px 2px 2px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-top: 11px;
+}
+
+.style_shareLink_3jMj6:first-child {
+    margin-left: 10px;
+}
