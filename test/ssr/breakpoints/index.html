@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style type="text/css">
+		
+		header {
+			font-family: Papyrus,fantasy, serif;
+			font-size: 18pt;
+		}
+
+	</style>
+	
+</head>
+
+<body>
+	<script>
+		// add groupid to url to activate experience 
+		// TODO: SSR app should grab group ID from state, NOT URL
+	(() => {
+		document.location.replace(addParameterToURL("#group/5a9999f2464bf66e7521472d"));
+	})();
+
+	function addParameterToURL(param){
+	    _url = '//' + location.host + location.pathname;
+	    return _url + param;
+	}
+	</script>
+	<header>
+		SSR Test Breakpoint Groups
+		<br/>
+		groupId: 5a9999f2464bf66e7521472d
+		<br />
+		webpack build: jfmx8yhy
+	</header>
+
+
+	<div id="viewer" style="width: 600px; height: 100vh;">
+		<script>window["5a9999f2464bf66e7521472d_STATE"] = {"company":{},"viewer":{"mode":1,"experiences":{"5a999a89464bf66e7521482d":{"model":{"type":"Experience","id":"5a999a89464bf66e7521482d","version":14,"companyId":"5a2694224cedfd000cf4629c","changedSinceLastPush":false,"name":"Breakpoint Group Test - Tablet","scenes":[{"id":"5a999a89464bf66e7521482a","widgets":[{"animations":[],"type":"image","imageId":"5a999aad464bf66e7521487e","altText":"Screen Shot 2018-01-26 at 3.59.53 PM_t","src":"assets/images/5a999aad464bf66e7521487e.png","rotation":0,"layerIndex":0,"originalImageWidth":1291,"effects":[],"top":0,"borderRadius":0,"left":0,"width":100,"originalImageHeight":839,"supportsResize":true,"height":49.976079999999996,"cid":"c11559"},{"animations":[],"type":"shape","borderColor":"#000000","backgroundColor":"#00ab57","rotation":0,"layerIndex":1,"effects":[],"top":28.125,"left":2.604166666666667,"width":41.50074268977321,"opacity":1,"height":13.354094324816392,"cid":"c11561"},{"animations":[],"type":"text","color":"#dbff00","fontVariant":"none","fontFamily":"Super Plumber Brothers","top":30.859375,"fontMetadata":{"path":"assets/fonts/5a2694224cedfd000cf4629c/5a999993464bf66e7521464e.ttf","customFontId":"5a999993464bf66e7521464e","format":"truetype","cssFamilyNames":"Super Plumber Brothers"},"text":"\u003cdiv>Tablet\u003c/div>","textShadow":"none","fontWeight":"400","textTransform":"none","fontProvider":"custom","textAlign":"left","rotation":0,"letterSpacing":12,"textDecoration":"none","fontStyle":"normal","layerIndex":2,"effects":[],"left":7.03125,"width":36.95782168044445,"fontSize":65,"lineHeight":1.4,"fontFamilies":[{"fontProvider":"custom","fontFamily":"Super Plumber Brothers","fontStyle":"normal","fontWeight":"400","fontMetadata":{"path":"assets/fonts/5a2694224cedfd000cf4629c/5a999993464bf66e7521464e.ttf","customFontId":"5a999993464bf66e7521464e","format":"truetype"}}],"disableCentering":true,"cid":"c11563"}],"sceneNumber":"1"}],"overlayScene":{"id":"5a999a89464bf66e7521482b","widgets":[],"sceneNumber":"overlay"},"backgroundScene":{"id":"5a999a89464bf66e7521482c","widgets":[],"sceneNumber":"background"},"group":{"resourceId":"5a9999f2464bf66e7521472d","resourceType":"BreakpointGroup"},"backdrop":{"type":"Color","fit":"Experience","color":"#ffffff"},"loopAfter":0,"width":768,"height":1024,"copyOf":"5a9999f3464bf66e75214732","integrations":[{"type":"Scene7Integration"}],"metadata":false,"autoPlayDelay":5000,"transition":"slide-from-right"},"currentSceneNumber":0,"transitionDirection":0},"5a99975e464bf66e752145b8":{"model":{"type":"Experience","id":"5a99975e464bf66e752145b8","version":44,"companyId":"5a2694224cedfd000cf4629c","changedSinceLastPush":false,"name":"Breakpoint Group Test - Desktop","scenes":[{"id":"5a99975e464bf66e752145b5","widgets":[{"animations":[],"type":"image","imageId":"5a9997b1464bf66e752145c1","altText":"Screen Shot 2018-01-26 at 3.59.53 PM","src":"assets/images/5a9997b1464bf66e752145c1.png","rotation":0,"layerIndex":0,"originalImageWidth":1768,"effects":[],"top":0,"borderRadius":0,"left":0,"width":100.01693999999999,"originalImageHeight":1316,"supportsResize":true,"height":100,"cid":"c13902"},{"animations":[],"type":"shape","borderColor":"#000000","backgroundColor":"#00ab57","rotation":0,"layerIndex":1,"effects":[],"top":33.33333333333333,"left":0,"width":100.31227380375668,"opacity":1,"height":12.888880000000004,"cid":"c13904"},{"animations":[],"type":"text","color":"#dbff00","fontVariant":"none","fontFamily":"Super Plumber Brothers","top":34.66666666666667,"fontMetadata":{"path":"assets/fonts/5a2694224cedfd000cf4629c/5a999993464bf66e7521464e.ttf","customFontId":"5a999993464bf66e7521464e","format":"truetype","cssFamilyNames":"Super Plumber Brothers"},"text":"\u003cdiv>DESKTOP\u003c/div>","textShadow":"none","fontWeight":"400","textTransform":"none","fontProvider":"custom","textAlign":"left","rotation":0,"letterSpacing":12,"textDecoration":"none","fontStyle":"normal","layerIndex":2,"effects":[],"left":38.75,"width":22.83641688888889,"fontSize":65,"lineHeight":1.4,"fontFamilies":[{"fontProvider":"custom","fontFamily":"Super Plumber Brothers","fontStyle":"normal","fontWeight":"400","fontMetadata":{"path":"assets/fonts/5a2694224cedfd000cf4629c/5a999993464bf66e7521464e.ttf","customFontId":"5a999993464bf66e7521464e","format":"truetype"}}],"disableCentering":true,"cid":"c13906"}],"sceneNumber":"1"}],"overlayScene":{"id":"5a99975e464bf66e752145b6","widgets":[],"sceneNumber":"overlay"},"backgroundScene":{"id":"5a99975e464bf66e752145b7","widgets":[],"sceneNumber":"background"},"group":{"resourceId":"5a9999f2464bf66e7521472d","resourceType":"BreakpointGroup"},"backdrop":{"type":"Color","fit":"Experience","color":"#ffffff"},"loopAfter":0,"width":1280,"height":900,"integrations":[{"type":"Scene7Integration"}],"metadata":false,"autoPlayDelay":5000,"transition":"slide-from-right"},"currentSceneNumber":0,"transitionDirection":0},"5a9999f3464bf66e75214732":{"model":{"type":"Experience","id":"5a9999f3464bf66e75214732","version":15,"companyId":"5a2694224cedfd000cf4629c","changedSinceLastPush":false,"name":"Breakpoint Group Test - Mobile","scenes":[{"id":"5a9999f3464bf66e7521472f","widgets":[{"animations":[],"type":"image","imageId":"5a999a41464bf66e752147cb","altText":"Screen Shot 2018-01-26 at 3.59.53 PM_m","src":"assets/images/5a999a41464bf66e752147cb.png","rotation":0,"layerIndex":0,"originalImageWidth":1010,"effects":[],"top":0,"borderRadius":0,"left":0,"width":100,"originalImageHeight":1283,"supportsResize":true,"height":71,"cid":"c4801"},{"animations":[],"type":"shape","borderColor":"#000000","backgroundColor":"#00ab57","rotation":0,"layerIndex":1,"effects":[],"top":70.9375,"left":0,"width":101.02412638688831,"opacity":1,"height":28.852623851624998,"cid":"c4803"},{"animations":[],"type":"text","color":"#dbff00","fontVariant":"none","fontFamily":"Super Plumber Brothers","top":75.78125,"fontMetadata":{"path":"assets/fonts/5a2694224cedfd000cf4629c/5a999993464bf66e7521464e.ttf","customFontId":"5a999993464bf66e7521464e","format":"truetype","cssFamilyNames":"Super Plumber Brothers"},"text":"\u003cdiv>Mobile\u003c/div>","textShadow":"none","fontWeight":"400","textTransform":"none","fontProvider":"custom","textAlign":"left","rotation":0,"letterSpacing":12,"textDecoration":"none","fontStyle":"normal","layerIndex":2,"effects":[],"left":4.444444444444445,"width":92.91511111111113,"fontSize":65,"lineHeight":1.4,"fontFamilies":[{"fontProvider":"custom","fontFamily":"Super Plumber Brothers","fontStyle":"normal","fontWeight":"400","fontMetadata":{"path":"assets/fonts/5a2694224cedfd000cf4629c/5a999993464bf66e7521464e.ttf","customFontId":"5a999993464bf66e7521464e","format":"truetype"}}],"disableCentering":true,"cid":"c4805"}],"sceneNumber":"1"}],"overlayScene":{"id":"5a9999f3464bf66e75214730","widgets":[],"sceneNumber":"overlay"},"backgroundScene":{"id":"5a9999f3464bf66e75214731","widgets":[],"sceneNumber":"background"},"group":{"resourceId":"5a9999f2464bf66e7521472d","resourceType":"BreakpointGroup"},"backdrop":{"type":"Color","fit":"Experience","color":"#ffffff"},"loopAfter":0,"width":360,"height":640,"copyOf":"5a99975e464bf66e752145b8","integrations":[{"type":"Scene7Integration"}],"metadata":false,"transition":"slide-from-right","autoPlayDelay":5000},"currentSceneNumber":0,"transitionDirection":0}},"content":{"group":{"model":{"type":"BreakpointGroup","id":"5a9999f2464bf66e7521472d","version":4,"companyId":"5a2694224cedfd000cf4629c","pushedVersionUnknown":false,"changedSinceLastPush":false,"name":"Breakpoint Group Test group","immutable":false,"entries":[{"type":"Breakpoint","reference":{"resourceId":"5a9999f3464bf66e75214732","resourceType":"Experience"},"value":{"threshold":0},"cid":"c17217"},{"type":"Breakpoint","reference":{"resourceId":"5a99975e464bf66e752145b8","resourceType":"Experience"},"value":{"threshold":992},"cid":"c17221"},{"type":"Breakpoint","reference":{"resourceId":"5a999a89464bf66e7521482d","resourceType":"Experience"},"value":{"threshold":768},"cid":"c17219"}]}}}}}</script> <div class="zmags-viewer-container" data-experience="5a9999f2464bf66e7521472d"><span role="img" aria-label="Loading" data-reactroot="">💾</span></div>
+
+	</div>
+<!-- The experience-client app is runing on localhost:9000 ==> grab the webpack build and replace the version below -->
+		<script src="http://localhost:9000/js/viewer-xp-main.jfmx8yhy.js" ></script>
+</body>
+
+</html>
+
